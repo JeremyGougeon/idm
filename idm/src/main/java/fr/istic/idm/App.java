@@ -59,11 +59,11 @@ public class App {
 		 
 		for (Record r : result2) {
 			  String col1idm1 = r.getValue(TABLETESTIDM1.COL1IDM1);
-	          String col2idm1 = r.getValue(TABLETESTIDM1.COL2IDM1);
+	          String col3idm1 = r.getValue(TABLETESTIDM1.COL3IDM1);
 	          
 	          System.out.println();
 	          System.out.println("*****************Deuxième requête***********************");
-	          System.out.println("col 1 : " + col1idm1 + ",col 2 : " + col2idm1);   
+	          System.out.println("col 1 : " + col1idm1 + ",col 2 : " + col3idm1);   
 	      }
 		
 		conn.close();
